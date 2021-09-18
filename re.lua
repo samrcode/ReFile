@@ -1,5 +1,5 @@
 --[[
-    ReFile, Lua ReFile, lua re, or re, are made by samr.
+    ReFile, Lua ReFile, lua re, or re, are made by samrcode on GitHub.
     You are allowed to change this code if you give credit to the original author.
 ]]
 
@@ -16,7 +16,7 @@ function re.math(op, x, y)
         print(x / y)
     else
         print("re: math")
-        print("| Something heppened. Try again later.")
+        print("| Something happened. Try again later.")
     end
 end
 
