@@ -7,18 +7,30 @@ local re = {}
 
 function re.math(op, x, y)
     if (op == 1) then
-        print(x + y)
+        return x + y
     elseif (op == 2) then
-        print(x - y)
+        return x - y
     elseif (op == 3) then
-        print(x * y)
+        return x * y
     elseif (op == 4) then
-        print(x / y)
+        return x / y
     else
         print("re: math")
         print("  | Something happened. Try again later.")
-		print("  | ERROR: " .. op .. " IS NOT A VALID OPERATOR. MIN IS 1. MAX IS 4.")
+	print("  | ERROR: " .. op .. " IS NOT A VALID OPERATOR. MIN IS 1. MAX IS 4.")
     end
+end
+
+function re.printf(message, format)
+	if (format == "i") then
+		print("" .. message)
+	else if (format == "red") then
+		print("" .. message)
+	else
+		print("re: printf")
+		print(" | Something happened. Try again later.")
+		print(" | ERROR: " .. format .. " NOT VALID. PLEASE READ DOCUMENTATION.")
+	end
 end
 
 function re.pause(message)
