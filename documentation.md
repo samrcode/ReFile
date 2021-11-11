@@ -1,5 +1,5 @@
 # Documentation
-Stuff that only cool people read. So that means you're a cool person. But I'm a very cool person. Because I live in Canada. Which is cold. But not that cold.
+Stuff that only cool people read. So that means you're a cool person.
 
 ## Functions
 You need to know what the functions in re are if you want to use re, right?
