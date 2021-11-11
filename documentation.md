@@ -8,7 +8,7 @@ You need to know what the functions in re are if you want to use re, right?
 ```lua
 re.pause()
 ```
-pause is used to make a break in you code. It will output a standard "Press Enter to continue... ".
+pause is used to make a break in your code. It will output a standard "Press Enter to continue... ".
 
 #### parameters
 ```lua
@@ -16,6 +16,23 @@ re.pause(message)
 ```
 `message` is used to make a custom message. It can be left blank.
 
+### re.printf
+```lua
+re.printf()
+```
+printf is used to format your text. It will then print the text.
+
+#### parameters
+```lua
+re.printf(message, format)
+```
+`message` is your string that you want formatted.
+`format` is the format you want the string to have.
+
+ - i: italic
+ - red: colour red
+
+NOTE: even though this function is declared, it doesn't properly work yet.
 
 ### re.math
 ```lua
@@ -30,10 +47,10 @@ re.math(op, x, y)
 ```
 `op` is used to select an operator.
 
-1: Addition
-2: Subtraction
-3: Multiplication
-4: Division
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
 
 `x` is a number. So is `y`.
 
